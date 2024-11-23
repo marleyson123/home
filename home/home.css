@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(180, 212, 231);
+    background-image: url(../img/educa.jpg)
+    
+max-width: 1300px;
+    /* Cor de fundo para casos em que a imagem não carrega */
+    /* Garante que o corpo ocupe toda a largura */
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    background-size: cover; /* A imagem irá cobrir toda a tela */
+    background-position: center center; /* A imagem será centralizada */
+    background-repeat: no-repeat; /* A imagem não será repetida */
+   position: relative;
+    
+    
+
+}
+
+.main_header{
+    width: 100%;/*tamanho da imagem da tela*/
+    background-color:#000000;
+    position: fixed; ->/*deixa o menu fixo na tela*/
+    margin-right: 50%;
+    padding: 30px;
+               
+}
+.main_header_content{
+    max-width: 1500px;/*tamanho do conteudo*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.logo{
+margin-right: 0;
+justify-items: right;
+text-align: right;
+    
+}
+.logo h3{
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-right: 0px;
+}
+.logo span{
+    color: cornflowerblue;
+    font-size: 30px;
+    margin-right: 0px;
+}
+
+.main_header_content_menu{
+    flex-basis: calc(100% - 330px);/*calc = calcula o tamanho dos px*/
+    display: flex;
+    justify-content:flex-end;/*sever para jogar o menu para o final*/
+    
+    
+}
+.main_header_content_menu ul{
+    display: flex;
+}
+.main_header_content_menu ul li{
+    list-style: none;/*tira o marcador*/
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 20px;
+    
+
+
+   
+    
+}
+.main_header_content_menu ul li a{
+    padding:  8px 15px;
+    background-color: coral;
+    display: flex;
+    color: rgb(255, 255, 250);
+    height:70%; /*altura do conteine*/
+    border-radius: 15px;
+    align-items: center;
+    text-decoration: none;
+    gap: 200px;
+}
+.main_header_content_menu ul li a:hover{ /*hover serve para mudar cor do link quando passar o mouse por cima*/
+    color: rgb(30, 30, 29);
+    padding:  8px 15px;
+        background-color:rgb(255, 0, 0);
+    
+
+}
+
+/*inicio primeira dobra - cta*/
+.main_cta{
+    width: 100%;
+    height: 100%;
+   
+    background-color: #2d2a2a
+    background-repeat: no-repeat;/*paara nao repetir a imagem do back image*/
+    background-position: center center;
+    background-size: cover;
+}
+.main_cta_content_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 170px 40px;
+}
+.main_cta_content{
+    max-width: 1300px;
+    margin: 0 auto; /*margem  0 e o auto faz conteudo acompanhar o tamanho da tela deixando centralizado*/
+}
+.main_cta_content h1{
+    font-size: 3em;
+    color: #ffa601;
+    font-weight: 700px; /*deixa a fonte mais negrita ou nao*/
+    text-align: center;
+    margin-left: 0%;
+    
+}
+.main_cta_content p{
+font-size: 38px;
+
+color: rgb(2, 2, 2);
+font-weight: 400;/*deixa a fonte mais negrita ou nao*/
+text-align:center;
+margin: 20px 0;/*ajuda distanciar objetos ou frases*/
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 67%;
+
+
+
+
+}
+
+.main_cta_content img{
+    width: 1100px;
+    height: 800px;
+    margin-left: -28% ;
+    margin-bottom: -54%;
+}
+
+
+
+ .titleimg{
+   
+    
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+
+
+/* Rodapé */
+.footer {
+    
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 1px 0;
+    font-size: 13px;
+    width: 1576px;
+    margin-bottom: 0%;
+    margin-top: -10%;
+    text-align: center;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer_section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer_section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #f87306;
+    text-transform: uppercase;
+}
+
+.footer_section p,
+.footer_section ul {
+    margin: 0;
+    line-height: 1.8;
+}
+
+.footer_section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_section ul li {
+    margin-bottom: 5px;
+}
+
+.footer_section ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer_section ul li a:hover {
+    color: #f9a826;
+}
+
+.footer_bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.footer_bottom p {
+    margin: 0;
+    font-size: 12px;
+    color: #bbb;
+}
+
+    
+
